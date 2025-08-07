@@ -15,7 +15,7 @@ const About = () => {
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
               Tenho 21 anos, sou estudante de engenharia da computação (2022.2 - 2027.1) no Senai
-              Cimatec, atualmente estou no 6º semestre. Tenho como objetivo desenvolver-me
+              Cimatec, atualmente estou no 7º semestre. Tenho como objetivo desenvolver-me
               profissionalmente, colocando em prática aspectos abordados em sala de aula.
             </p>
             
@@ -52,9 +52,9 @@ const About = () => {
           <div className="grid grid-cols-2 gap-6">
             {[
               { number: '2+', label: 'Projetos Concluídos' },
-              { number: '6º', label: 'Semestre Atual' },
+              { number: '7º', label: 'Semestre Atual' },
               { number: '21', label: 'Anos de Idade' },
-              { number: '2025', label: 'Ano de Formação' },
+              { number: '2027', label: 'Ano de Formação' },
             ].map((stat) => (
               <div key={stat.label} className="text-center p-6 bg-card rounded-lg border card-hover">
                 <div className="text-3xl font-bold text-primary mb-2">

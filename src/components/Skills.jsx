@@ -7,7 +7,7 @@ const Skills = () => {
       title: 'Code',
       icon: Code,
       color: 'text-gray-300',
-      skills: ['C', 'C++', 'Python', 'HTML', 'JavaScript', 'CSS', 'React'],
+      skills: ['C', 'C++', 'Python', 'HTML', 'JavaScript', 'CSS', 'React', 'SQL'],
     },
     {
       title: 'Soft Skills',
